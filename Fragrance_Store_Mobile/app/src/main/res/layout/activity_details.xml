@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:fontFamily="@font/frank_ruhl"
+            android:text="@string/fragrance_details"
+            android:textColor="@color/darkBrown"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/frank_ruhl"
+                android:gravity="center"
+                android:text="@string/name"
+                android:textColor="@color/darkBrown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/frank_ruhl"
+                android:minHeight="48dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkBrown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" >
+
+            <TextView
+                android:id="@+id/brandText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/frank_ruhl"
+                android:gravity="center"
+                android:text="@string/brand"
+                android:textColor="@color/darkBrown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/brand_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/frank_ruhl"
+                android:minHeight="48dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkBrown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" >
+
+            <TextView
+                android:id="@+id/priceText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/frank_ruhl"
+                android:gravity="center"
+                android:text="@string/price"
+                android:textColor="@color/darkBrown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/frank_ruhl"
+                android:minHeight="48dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkBrown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" >
+
+            <TextView
+                android:id="@+id/pricePerAmountText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/frank_ruhl"
+                android:gravity="center"
+                android:text="@string/price_per_100ml"
+                android:textColor="@color/darkBrown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pricePerAmount_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/frank_ruhl"
+                android:minHeight="48dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkBrown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" >
+
+            <TextView
+                android:id="@+id/concentrationText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/frank_ruhl"
+                android:gravity="center"
+                android:text="@string/concentration"
+                android:textColor="@color/darkBrown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/concentration_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/frank_ruhl"
+                android:minHeight="48dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkBrown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" >
+
+            <TextView
+                android:id="@+id/quantityText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/frank_ruhl"
+                android:gravity="center"
+                android:text="@string/quantity"
+                android:textColor="@color/darkBrown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/quantity_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/frank_ruhl"
+                android:minHeight="48dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkBrown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" >
+
+            <TextView
+                android:id="@+id/baseNotesText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/frank_ruhl"
+                android:gravity="center"
+                android:text="@string/base_notes"
+                android:textColor="@color/darkBrown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/baseNotes_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/frank_ruhl"
+                android:minHeight="48dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkBrown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" >
+
+            <TextView
+                android:id="@+id/midNotesText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/frank_ruhl"
+                android:gravity="center"
+                android:text="@string/mid_notes"
+                android:textColor="@color/darkBrown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/midNotes_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/frank_ruhl"
+                android:minHeight="48dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkBrown" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" >
+
+            <TextView
+                android:id="@+id/topNotesText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/frank_ruhl"
+                android:gravity="center"
+                android:text="@string/top_notes"
+                android:textColor="@color/darkBrown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/topNotes_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/frank_ruhl"
+                android:minHeight="48dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/darkBrown" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_det"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/search_another_fragrance"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:fontFamily="@font/frank_ruhl"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/darkBrown" />
+
+    </LinearLayout>
+</ScrollView>

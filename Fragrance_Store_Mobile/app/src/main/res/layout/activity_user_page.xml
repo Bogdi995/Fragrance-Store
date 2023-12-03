@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserPageActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/up_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/personal_page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/description_page" />
+
+    <EditText
+        android:id="@+id/name_up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_person"
+        android:drawablePadding="20dp"
+        android:elevation="3dp"
+        android:padding="13dp"
+        android:hint="@string/name"
+        android:autofillHints="Write your name here"
+        android:inputType="text"
+        android:fontFamily="@font/frank_ruhl"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/up_img"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/surname_up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_person"
+        android:drawablePadding="20dp"
+        android:elevation="3dp"
+        android:padding="13dp"
+        android:hint="@string/surname"
+        android:autofillHints="Write your surname here"
+        android:inputType="text"
+        android:fontFamily="@font/frank_ruhl"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_up"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/address_up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_person"
+        android:drawablePadding="20dp"
+        android:elevation="3dp"
+        android:padding="13dp"
+        android:hint="@string/address"
+        android:autofillHints="Write your address here"
+        android:inputType="text"
+        android:fontFamily="@font/frank_ruhl"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/surname_up"
+        app:layout_constraintWidth_percent=".8" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:fontFamily="@font/frank_ruhl"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:backgroundTint="@color/darkBrown"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address_up" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
